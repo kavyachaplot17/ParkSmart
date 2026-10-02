@@ -178,9 +178,8 @@ Normal:                           basePrice × 1.0
 2. **Amer Bazaar Smart Park** — Amer Road, ₹30/hr
 3. **Vaishali Nagar Parking Complex** — Vaishali Nagar, ₹25/hr
 
-## 📱 Production SMS Integration
-
-To enable real OTP delivery, integrate an SMS gateway in `server/routes/auth.js`:
+## 📱 Future SMS Integration
+The current application displays OTPs in development mode. Real SMS delivery can be integrated using providers such as:
 - **MSG91** (Indian SMS provider)
 - **Twilio**
 - **Fast2SMS**

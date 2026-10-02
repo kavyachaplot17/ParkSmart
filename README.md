@@ -1,6 +1,6 @@
 # 🅿️ ParkSmart — Smart Parking Management System
 
-A full-stack **MERN** application for smart parking management designed for Indian cities like **Jaipur, Rajasthan**.
+ParkSmart is a full-stack MERN smart parking management system that enables users to discover parking locations, view real-time slot availability, make bookings, and manage parking through an admin dashboard.
 
 ## ✨ Features
 
@@ -8,7 +8,7 @@ A full-stack **MERN** application for smart parking management designed for Indi
 - **🗺️ Live Map** — Interactive Leaflet map showing parking zones in Jaipur
 - **🔴 Real-time Slots** — Socket.io powered live slot updates every 5 seconds
 - **💰 Dynamic Pricing** — 1.5x during peak hours (9-11am, 6-8pm), 0.8x off-peak
-- **📊 AI Prediction** — Hourly demand forecast chart
+- **📊 Demand Forecast** — Hourly parking-demand forecast chart
 - **📱 QR Codes** — Auto-generated QR for entry/exit after booking
 - **💳 UPI Payments** — Mock UPI/card/net banking payment UI
 - **👨‍💼 Admin Panel** — Revenue stats, occupancy analytics, booking management

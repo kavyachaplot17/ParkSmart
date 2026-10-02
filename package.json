@@ -1,0 +1,36 @@
+{
+  "name": "smart-parking",
+  "version": "1.0.0",
+  "description": "Smart Parking System - A full-stack application for parking lot management and bookings",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "start:server": "npm run start --prefix server",
+    "start:client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server",
+    "install-all": "npm run install:all",
+    "server": "npm run start --prefix server",
+    "client": "npm run start --prefix client",
+    "seed": "node server/seed.js"
+  },
+  "keywords": [
+    "parking",
+    "smart-parking",
+    "booking",
+    "real-time"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "firebase": "^12.11.0",
+    "server": "^0.0.3"
+  }
+}

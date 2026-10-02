@@ -1,6 +1,8 @@
-# 🅿️ ParkSmart — Smart Parking Management System
+# 🚗 ParkSmart
 
-ParkSmart is a full-stack MERN smart parking management system that enables users to discover parking locations, view real-time slot availability, make bookings, and manage parking through an admin dashboard.
+> A full-stack MERN smart parking management system for discovering parking locations, checking slot availability, making bookings, and managing parking operations.
+
+Built with **React, Node.js, Express, MongoDB, Socket.io, Leaflet, and JWT authentication**, with Jaipur used as the primary demo environment.
 
 ## ✨ Features
 
